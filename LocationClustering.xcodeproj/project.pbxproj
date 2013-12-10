@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93D9882E1857AEA9004F3276 /* DBSCAN.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D9882D1857AEA9004F3276 /* DBSCAN.m */; };
 		CE14A66B1856AD0D00739939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14A66A1856AD0D00739939 /* Foundation.framework */; };
 		CE14A66D1856AD0D00739939 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14A66C1856AD0D00739939 /* CoreGraphics.framework */; };
 		CE14A66F1856AD0D00739939 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE14A66E1856AD0D00739939 /* UIKit.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		93D9882C1857AEA9004F3276 /* DBSCAN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBSCAN.h; sourceTree = "<group>"; };
+		93D9882D1857AEA9004F3276 /* DBSCAN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBSCAN.m; sourceTree = "<group>"; };
 		CE14A6671856AD0D00739939 /* LocationClustering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationClustering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE14A66A1856AD0D00739939 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE14A66C1856AD0D00739939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -128,6 +131,8 @@
 		CE14A65E1856AD0D00739939 = {
 			isa = PBXGroup;
 			children = (
+				93D9882C1857AEA9004F3276 /* DBSCAN.h */,
+				93D9882D1857AEA9004F3276 /* DBSCAN.m */,
 				CE14A6701856AD0D00739939 /* LocationClustering */,
 				CE14A68F1856AD0D00739939 /* LocationClusteringTests */,
 				CE14A6691856AD0D00739939 /* Frameworks */,
@@ -317,6 +322,7 @@
 				CE14A67B1856AD0D00739939 /* AppDelegate.m in Sources */,
 				CE14A6771856AD0D00739939 /* main.m in Sources */,
 				CE3C4F9C18579A1E008ADA8D /* Model.xcdatamodeld in Sources */,
+				93D9882E1857AEA9004F3276 /* DBSCAN.m in Sources */,
 				CE3C4FA51857A82F008ADA8D /* GPSLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
