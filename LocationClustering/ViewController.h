@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "GPSLocation.h"
+#import "DBSCAN.h"
 
 @interface ViewController : UIViewController < NSFetchedResultsControllerDelegate>
 

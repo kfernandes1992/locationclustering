@@ -13,7 +13,7 @@
 @interface GPSLocation : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * id;
-@property (nonatomic, retain) NSDate * timestamp;
+@property (nonatomic, retain) NSNumber * timestamp;
 @property (nonatomic, retain) NSNumber * latitude;
 @property (nonatomic, retain) NSNumber * longitude;
 @property (nonatomic, retain) NSNumber * accuracy;
